@@ -64,6 +64,7 @@ function dataReverse(data) {
 
 ## Education:
 
+- Courses ["RS-PreSchool - JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/)
 - Courses on platform **[Hexlet](https://ru.hexlet.io/)**
     - [Introdution to programming](https://ru.hexlet.io/courses/introduction_to_programming)
     - [Basics of programming](https://ru.hexlet.io/courses/programming-basics)
@@ -75,7 +76,6 @@ function dataReverse(data) {
     - CSS lvl 2
 - Course on [Stepik](https://stepik.org)
     - JavaScript to begginer - [sertificate](https://stepik.org/cert/1207580)
-- Courses ["RS-PreSchool - JavaScript/Front-end. Stage 0"](https://rs.school/js-stage0/);
 
 ## Languages:
 
