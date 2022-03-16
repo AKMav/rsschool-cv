@@ -1,3 +1,3 @@
 # Akmal's CV
 
-https://AKMav.github.io/rsschool-cv/html
+https://AKMav.github.io/rsschool-cv/
