@@ -51,25 +51,25 @@
 						Each segment is 8 bits long, meaning the order of these segments needs to be reversed, for example:
 					</p>
 					<pre class="code__text">
-<code>
+<code class="only-code">
 11111111  00000000  00001111  10101010
 (byte1)   (byte2)   (byte3)   (byte4)</code>
 					</pre>
 					<p class="task__text">should become:</p>
 					<pre class="code__text">
-<code>
+<code class="only-code">
 10101010  00001111  00000000  11111111
 (byte4)   (byte3)   (byte2)   (byte1)</code>
 					</pre>
 					<p class="task__text">The total number of bits will always be a multiple of 8.<br>
 						The data is given in an array as such:</p>
 					<pre class="code__text">
-<code>
-[1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]</code>
+<code class="only-code">
+[1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0]</code>
 					</pre>
 					<p class="task__text">My solution:</p>
 					<pre class="code__text">
-<code class="solution__text">
+<code class="only-code">
 function dataReverse(data) {
 	let result = [];
 	  while (data.length > 0) {

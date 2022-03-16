@@ -5,10 +5,10 @@
 }
 
 html, body {
-	max-width: 100%;
-	height: 100vh;
+	width: 100%;
 	background-color: #e0f2f5;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
 }
 
 ul > li {
@@ -137,4 +137,51 @@ ul > li {
 .contacts__list >  dt {
 	font-weight: bold;
 	margin: 10px 0;
+}
+
+
+@media (max-width:700px) {
+
+	body {
+		font-size: 10px;
+	}
+	.header__info {
+		justify-content: space-evenly;
+	}
+
+	.header__name {
+		font-size: 16px;
+	}
+	
+	.section__header {
+		font-size: 14px;
+		margin: 5px 0;
+	}
+
+	.header { 
+		height: 250px;
+	}
+
+	.header__photo {
+		width: 150px;
+	}
+
+	.only-code {
+		font-size: 8px;
+		white-space: normal !important;
+		color: blue;
+	}
+
+	.contacts__list >  dt {
+		font-weight: bold;
+		margin: 5px 0;
+	}
+
+	.contacts__list {
+		padding: 0 5px;
+	}
+
+	.footer__row {
+		width: 100%;
+	}
 }
