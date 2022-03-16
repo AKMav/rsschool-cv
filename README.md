@@ -1,3 +1,3 @@
-# Akmal Mavrayev's CV
+# Akmal's CV
 
-https://AKMav.github.io/rsschool-cv/cv
+https://AKMav.github.io/rsschool-cv/html
